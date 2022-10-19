@@ -1,0 +1,15 @@
+let str = "nrupul";
+let bag ="";
+    let bag2 = "";
+    for(let a =0;a<str.length-1;a++){
+        bag+=str[a];
+    }
+    for(let b =str.length;b>=0;b--){
+        bag2+=str[b];
+    }
+    if(bag!==bag2){
+        console.log("Yes");
+    }
+    else{
+        console.log("No");
+    }
